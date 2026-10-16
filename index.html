@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f3ec"><meta name="description" content="次の人生は、人間とは限らない。地球の微生物に生まれ、一瞬で一生を終える、小さな転生ジョークゲーム。">
+<title>約100穣分の1 — 名もなき、いのち。</title>
+<link rel="stylesheet" href="style.css"><script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="header"><a class="wordmark" href="./">名もなき、いのち。</a><a href="#about" class="about-link">この世界について <span>↗</span></a></header>
+<main>
+<section class="intro" aria-labelledby="title">
+<p class="eyebrow">A VERY SMALL LIFE ON EARTH</p>
+<h1 id="title"><span class="approx">約</span><span class="number">100</span><span class="unit">穣</span><span class="fraction">分の<span>1</span></span></h1>
+<p class="reading">ひゃくじょうぶんのいち</p>
+<p class="lead">次の人生は、<br class="mobile-break">人間とは限らない。</p>
+<p class="intro-copy">地球上のいのちから、ひとつを無作為に。<br>生まれる場所も、からだも、運命も。<br>あなたには、選べません。</p>
+<div class="specimen" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="microbe"><i></i><i></i><i></i><i></i><i></i></div><span class="specimen-label">LIFE, ACTUAL SIZE: INVISIBLE</span><span class="scale"></span></div>
+<div class="birth-area"><button id="birth" class="primary">生まれる <span aria-hidden="true">→</span></button></div>
+</section>
+<section id="result" class="result" hidden aria-labelledby="result-title" tabindex="-1" aria-live="polite"></section>
+<section class="world" aria-labelledby="world-title">
+<div class="section-heading"><span class="eyebrow">THE ODDS OF EXISTENCE</span><h2 id="world-title">地球は、だいたい微生物。</h2></div>
+<p class="world-copy">大きな生きものほど、目立つもの。<br>でも、数で選ぶと、世界の見え方は変わります。</p>
+<div class="distribution" aria-hidden="true"><span style="flex:400"></span><span style="flex:300"></span><span style="flex:260"></span><span style="flex:120"></span></div>
+<div id="odds" class="odds"></div>
+<p class="small-note">原核生物の推定細胞数から構成した、ゲーム内の抽選比率です。</p>
+</section>
+<section id="about" class="about"><p class="eyebrow">A NOTE ON THIS LITTLE WORLD</p><h2>統計を、ちょっとだけ真面目に。</h2>
+<p>「80億分の1」に着想を得た、非公式のパロディです。人間の代わりに地球の全生物から選んだら、という思考実験を、小さなゲームにしました。</p>
+<details><summary>抽選のしくみと、出典 <span>＋</span></summary><div class="details-body"><p>「今年生まれる個体」の数は比較できる統計がないため、本作では<strong>存在する細胞数</strong>を重みとして使います。細菌と古細菌を含む原核生物を1細胞＝1個体とみなし、生息環境を抽選します。種そのものの抽選は行いません。</p><p>ゲームの代表値は、陸の地下 4 × 10²⁹、海底の堆積物 3 × 10²⁹、土壌 2.6 × 10²⁹、海水 1.2 × 10²⁹細胞。合計は1.08 × 10³⁰（108穣）で、タイトルは概数です。異なる年代の推定を組み合わせた簡易モデルであり、最新の全生物センサスではありません。</p><ul><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/33863/" target="_blank" rel="noreferrer">Whitman et al. (1998), Prokaryotes: The unseen majority ↗</a> — 土壌・海水の推定。</li><li><a href="https://www.nature.com/articles/s41561-018-0221-6" target="_blank" rel="noreferrer">Magnabosco et al. (2018), The biomass and biodiversity of the continental subsurface ↗</a> — 陸の地下の推定範囲2〜6 × 10²⁹の中間値を採用。</li><li><a href="https://doi.org/10.1073/pnas.1203849109" target="_blank" rel="noreferrer">Kallmeyer et al. (2012), Global distribution of microbial abundance and biomass in subseafloor sediment ↗</a> — 海底堆積物の推定を丸めて採用。</li></ul><p>動物・植物・真核微生物などは、個体数では原核生物に比べて非常に少なく、省略しても抽選結果への影響は小さいと考えられるため、この簡易モデルの抽選対象から省いています。ただし、全生物に占める正確な個体数比率を算出したものではありません。ウイルスも含みません。微生物の環境別の違いは表現しますが、細菌・古細菌の比率や種別の確率は再現していません。</p><p><strong>一生の文章、経過時間、結末の確率はすべてジョークとしての創作です。</strong>分裂を「一生の区切り」として扱うことがありますが、生物学的な死とは異なります。</p></div></details>
+</section>
+</main><footer><span>名もなき、いのち。</span><span>あなたがいなくても、地球はまわる。</span></footer>
+<noscript><p class="noscript">遊ぶにはJavaScriptを有効にしてください。</p></noscript>
+</body></html>
